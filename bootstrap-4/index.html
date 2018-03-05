@@ -16,6 +16,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/style.min.css" rel="stylesheet">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
   </head>
 
   <body>
@@ -55,8 +56,9 @@
 
     <div class="container">
 
-      <div class="starter-template">
+      <div class="starter-template " data-aos="zoom-in">
         <h1>Bootstrap starter template</h1>
+        <i class="far fa-address-book"></i>
         <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
       </div>
 
@@ -71,5 +73,15 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>
+    
+      $(window).on("load", function() {
+         $(".loadingone").remove();
+          AOS.init();
+        }); 
+    </script>
+
   </body>
 </html>
