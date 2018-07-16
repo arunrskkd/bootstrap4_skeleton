@@ -1,0 +1,1 @@
+{"version":3,"sources":["css/style.less"],"names":[],"mappings":"AACA,aACI,aACI,gBAFR,aACI,YAEI,aACI,eAAgB","sourcesContent":["// less\n.contsigmaone{\n    .headersect{\n        background: #fff;\n        .sectionone{\n            background: url('../images/bannerimageone.jpg') center center no-repeat;\n        }\n    }\n\n\n}   "]}

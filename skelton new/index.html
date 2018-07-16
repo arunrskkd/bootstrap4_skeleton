@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+  <!-- slider -->
+  <link rel="stylesheet" type="text/css" href="css/slick.css" />
+  <!-- lightbox -->
+  <link href='css/lightbox.css' rel='stylesheet' type='text/css'>
+  <!-- tel no -->
+  <link rel="stylesheet" href="./css/intlTelInput.css">
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+
+  <title>Sigma Gastrocare</title>
+</head>
+
+<body>
+  <div class="contsigmaone">
+    <div class="headersect">
+      <div class="container">
+      
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- Optional JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- slider -->
+  <script type="text/javascript" src="js/slick.min.js"></script>
+
+  <script>
+    $('.slidersect').slick({
+      dots: false,
+      infinite: true,
+      speed: 100,
+      slidesToShow: 1,
+      adaptiveHeight: true,
+      arrows: false,
+      autoplay: true,
+      autoplaySpeed: 3000,
+      fade: true
+    });
+
+  </script>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <!--note: lightbox.min.js modified -->
+  <script type="text/javascript" src="js/lightbox.min.js"></script>
+  <!-- telephone code -->
+  <script src="./js/intlTelInput.js"></script>
+  <script>
+
+    $(".cphone").intlTelInput({
+      // allowDropdown: false,
+      // autoHideDialCode: false,
+      // autoPlaceholder: "on",
+      // dropdownContainer: "body",
+      // excludeCountries: ["us"],
+      // geoIpLookup: function(callback) {
+      //   $.get("http://ipinfo.io", function() {}, "jsonp").always(function(resp) {
+      //     var countryCode = (resp && resp.country) ? resp.country : "";
+      //     callback(countryCode);
+      //   });
+      // },
+      // initialCountry: "auto",
+      nationalMode: false,
+      // numberType: "MOBILE",
+      //onlyCountries: ['in', 'uae', 'ch', 'ca', 'do'],
+      preferredCountries: ['in', 'ae', 'us', 'gb', 'kw', 'om', 'sa', 'qa'],
+
+
+      // separateDialCode: true,
+      // utilsScript: "http://www.asd.com/campaigns/wp-content/themes/asd/js/utils.js"
+    });
+  </script>
+</body>
+
+</html>
